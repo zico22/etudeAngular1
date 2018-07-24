@@ -1,9 +1,21 @@
 @import '../sass/variables';
+@import '../sass/bootstrapcustom';
+@import '~bourbon/core/bourbon';
 
-hi {
-  color: $hi-color;
-}
 :host {
   width: 100vw;
   height: 100vh;
+}
+h1 {
+  color: $info;
+  text-align: center;
+}
+
+h2 {
+  @include ellipsis;
+  color: $warning;
+}
+
+a {
+  color: $danger;
 }
