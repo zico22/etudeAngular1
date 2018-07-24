@@ -1,0 +1,9 @@
+@import '../sass/variables';
+
+hi {
+  color: $hi-color;
+}
+:host {
+  width: 100vw;
+  height: 100vh;
+}
