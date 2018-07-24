@@ -1,6 +1,15 @@
+@charset "utf-8";
 @import 'sass/variables';
+@import 'sass/bootstrapcustom';
+@import '~bourbon/core/bourbon';
+@import 'sass/fonts.scss';
+@import 'sass/font-awesome-custom';
 
 body,
 html {
   background-color: $bg-color;
+  font-family: 'Poppins', serif;
+  color: $text-default-color;
+  width: 100vw;
+  height: 100vh;
 }
